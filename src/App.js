@@ -31,7 +31,7 @@ import f8 from "./assets/f8.svg";
 import burger from "./assets/burger.svg";
 import { useState } from "react";
 function App() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <div className="w-full overflow-x-hidden">
       <header
@@ -319,7 +319,7 @@ function App() {
           ></img>
         </div>
       </section>
-      <section className="w-full flex flex-col space-y-5 md:space-y-0 bg-slate-200 p-10 md:justify-between">
+      <section className="w-full flex flex-col md:flex-row space-y-5 md:space-y-0 bg-slate-200 p-10 md:justify-between">
         <div className="space-y-5">
           <img src={logo} alt=""></img>
           <p>
